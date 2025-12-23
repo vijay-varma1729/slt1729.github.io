@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Personal site / GitHub Pages for slt1729" />
+  <title>Your Name — Welcome</title>
+
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#3b82f6;
+      --muted:#9aa4b2;
+      --text:#e6eef6;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg),#071025);
+      color:var(--text);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+      box-sizing:border-box;
+    }
+    .card{
+      max-width:880px;
+      width:100%;
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.04);
+      border-radius:12px;
+      padding:32px;
+      box-shadow: 0 6px 24px rgba(2,6,23,0.6);
+    }
+    h1{margin:0 0 8px 0; font-size:28px}
+    p.lead{margin:0 0 20px 0; color:var(--muted)}
+    .links{display:flex; gap:12px; flex-wrap:wrap}
+    a.btn{
+      display:inline-block;
+      background:linear-gradient(90deg,var(--accent),#60a5fa);
+      color:white;
+      padding:8px 14px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 4px 12px rgba(59,130,246,0.18);
+    }
+    a.ghost{
+      background:transparent;
+      color:var(--muted);
+      border:1px solid rgba(255,255,255,0.04);
+      padding:8px 12px;
+      border-radius:8px;
+      text-decoration:none;
+    }
+    footer{margin-top:20px; color:var(--muted); font-size:13px}
+    @media (max-width:640px){
+      .card{padding:20px}
+      h1{font-size:22px}
+    }
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>Hello — I'm Your Name</h1>
+    <p class="lead">Welcome to my personal site hosted with GitHub Pages. Replace this content with your own introduction, projects, and links.</p>
+
+    <section class="links" aria-label="quick links">
+      <a class="btn" href="https://github.com/vijay-varma1729" target="_blank" rel="noopener">My GitHub</a>
+      <a class="ghost" href="mailto:you@example.com">Contact</a>
+      <a class="ghost" href="#" onclick="alert('Replace this link with your resume or projects page')">Resume / Projects</a>
+    </section>
+
+    <footer>
+      <p>Built with GitHub Pages · Repository: <a href="https://github.com/vijay-varma1729/slt1729.github.io" target="_blank" rel="noopener" style="color:var(--accent)">slt1729.github.io</a></p>
+    </footer>
+  </main>
+</body>
+</html>
